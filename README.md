@@ -3,22 +3,21 @@ Analyzing mentor-mentee relationships based on quantitative data from open sourc
 This analysis is a continuation of and based on the Honours thesis project by Jasmine Mishra https://github.com/coffeehousejazz/honours_thesis.git
 
 
-Specifically with regards to the following research questions:
+Specifically with regard to the following research questions:
 
 RQ1: Does communication matter? Does the number and type of comments that a mentor and mentee have on each other affect the success of a relationship?
 
-- The sentiment analysis of conversations
+- The sentiment analysis of comment text
   Using:
-  https://huggingface.co/j-hartmann/emotion-english-distilroberta-base (base emotions) 
-  https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment (positive/neutral/negative)
+  https://huggingface.co/j-hartmann/emotion-english-distilroberta-base (base emotions - anger/disgust/fear/joy/neutral/sadness/surprise) 
   
-- Number of questions in comment data
+- Number of questions in the comment text
   Using:
-  https://huggingface.co/shahrukhx01/question-vs-statement-classifier
+  https://huggingface.co/shahrukhx01/question-vs-statement-classifier (question/statement)
 
-- The general tone of sentences when communicating
+- The general tone of comment text
   Using:
-  https://huggingface.co/yiyanghkust/finbert-tone
+  https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment (positive/neutral/negative)
 
 
 
