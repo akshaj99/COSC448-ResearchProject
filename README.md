@@ -1,6 +1,6 @@
 # COSC448-ResearchProject
-Analyzing mentor-mentee relationships based on quantitative data from open source projects on GitHub to determine what contributes to a successful mentorship. 
 This analysis is a continuation of and based on the Honours thesis project by Jasmine Mishra https://github.com/coffeehousejazz/honours_thesis.git
+Analyzing mentor-mentee relationships based on quantitative data from open source projects on GitHub and Google Summer of Code in the year 2021 to determine what contributes to a successful mentorship. 
 
 
 Specifically with regard to the following research questions:
